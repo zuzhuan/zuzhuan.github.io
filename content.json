@@ -1,45 +1,71 @@
-﻿jsonpCallback([
-    {
-        "title": "九评共产党",
-        "list": [
-            {"title": "【公告】大纪元将发表系列社论《九评共产党》", "url": "book_html/9ping.html#p0"},
-            {"title": "九评之一：评共产党是什么", "url": "book_html/9ping.html#p1"},
-            {"title": "九评之二：评中国共产党是怎样起家的", "url": "book_html/9ping.html#p2"},
-            {"title": "九评之三：评中国共产党的暴政", "url": "book_html/9ping.html#p3"},
-            {"title": "九评之四：评共产党是反宇宙的力量", "url": "book_html/9ping.html#p4"},
-            {"title": "九评之五：评江泽民与中共相互利用迫害法轮功", "url": "book_html/9ping.html#p5"},
-            {"title": "九评之六：评中国共产党破坏民族文化", "url": "book_html/9ping.html#p6"},
-            {"title": "九评之七：评中国共产党的杀人历史", "url": "book_html/9ping.html#p7"},
-            {"title": "九评之八：评中国共产党的邪教本质", "url": "book_html/9ping.html#p8"},
-            {"title": "九评之九：评中国共产党的流氓本性", "url": "book_html/9ping.html#p9"}
-        ]
-    },
-    {
-        "title": "风雨天地行",
-        "list": [
-            {"title": "一、荡浊篇", "url": "book_html/fytdx.html#p1"},
-            {"title": "二、清音篇", "url": "book_html/fytdx.html#p2"},
-            {"title": "三、风雨篇", "url": "book_html/fytdx.html#p3"},
-            {"title": "四、历劫篇", "url": "book_html/fytdx.html#p4"},
-            {"title": "五、同心篇", "url": "book_html/fytdx.html#p5"},
-            {"title": "六、审判篇", "url": "book_html/fytdx.html#p6"}
-        ]
-    },
-    {
-        "title": "为何退党？",
-        "list": [
-            {"title": "一、退党运动蓬勃发展见证辉煌", "url": "book_html/tdsc.html#wy000"},
-            {"title": "二、退党大潮的特点与意义", "url": "book_html/tdsc.html#wy001"},
-            {"title": "三、中共危机四伏　末日将至", "url": "book_html/tdsc.html#wy002"},
-            {"title": "四、退党的三大理由", "url": "book_html/tdsc.html#wy003"},
-            {"title": "五、退党运动大事回顾", "url": "book_html/tdsc.html#wy004"}
-        ]
-    },
-    {
-        "title": "真相视频",
-        "list": [
-            {"title": "一、＂四．二五＂上访真相", "url": "book_html/Player.html#wy000"},
-            {"title": "更多", "url": "book_html/Player.html#wy001"},
-           ]
-    }
-]);
+﻿jsonpCallback({
+    "b_data": [{
+		"title": "Html电子书",
+		"css": "background:linear-gradient(#b3b8cc,#6179c0); color:#FFF;",
+			
+		"list": [
+	    {  "title": "九评共产党", "url": "book_html/9ping.html" },
+            {
+                "title": "风雨天地行",
+                "url": "book_html/fytdx.html"              
+            },
+            {
+                "title": "你我有缘画册",
+                "url": "book_html/huace.html"              
+            },
+            {
+                "title": "解体党文化",
+                "url": "book_html/jtdwh.html"              
+            },
+            {
+                "title": "江泽民其人",
+                "url": "book_html/jzmqr.html"              
+            },
+            {
+                "title": "“死刑犯”撑不起中国器官移植市场上的蘑菇云",
+                "url": "book_html/murder.html"              
+            },
+            {
+                "title": "世纪伪案 惊天骗局",
+                "url": "book_html/pj.html"              
+            },
+            {
+                "title": "退党手册",
+                "url": "book_html/tdsc.html"              
+            },
+            {
+                "title": "共产主义的终极目的",
+                "url": "book_html/zjmd.html"              
+            }        
+			]
+                },
+                {
+                    "title": "定制影音",
+                    "css": "background:linear-gradient(#b3b8cc,#6179c0); color:#FFF;",
+                    "url": "book_html/Player.html",
+                    "list": [
+                        {"title":"为什么会有人类（webm格式）", "vid": "media-0"},
+                        {"title":"新唐人亚太台", "vid": "media-1"},
+                        {"title":"新唐人美东台", "vid": "media-2"}
+                    ]
+                }
+            ],
+    "media": [
+                {
+                    "title": "为什么会有人类",
+                    "type": "webm",
+                    "file": "https://gitlab.com/tui590285/vdjiangfa/-/raw/master/public/jiangfa.webm"
+                },
+                {
+                    "title": "新唐人亚太台",
+                    "type": "m3u8",
+                    "list": ["/9T1GF.m3u8","/d2ZFx.m3u8"]
+                },
+                {
+                    "title": "新唐人美东台",
+                    "type": "m3u8",
+                    "list": ["/o4dPg.m3u8","/ZZ7iJ.m3u8"]
+                }
+            ]
+}
+);
